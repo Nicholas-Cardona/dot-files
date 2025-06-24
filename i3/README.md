@@ -7,3 +7,6 @@ For volume notifications:
 For i3:
 - i3py
 - requests
+- dbus-python
+- scrot for i3lock
+- imagemagick for i3lock
