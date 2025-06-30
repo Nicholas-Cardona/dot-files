@@ -54,6 +54,7 @@
       "default": ["", "", " "],
     },
     "on-click": "pavucontrol",
+    "scroll-step": 2.5,
   },
   "custom/lock": {
     "tooltip": false,
