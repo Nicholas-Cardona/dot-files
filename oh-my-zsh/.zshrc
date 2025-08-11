@@ -112,4 +112,7 @@ alias cat=bat
 alias rm="trash-put"
 eval "$(jump shell)"
 
+export DOTNET_ROOT=$HOME/.dotnet
 
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$PATH:$HOME/.dotnet
