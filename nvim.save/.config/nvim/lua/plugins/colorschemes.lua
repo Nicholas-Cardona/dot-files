@@ -64,10 +64,7 @@ return {
       -- setup must be called before loading
       require("darcula").setup({
         override = function(c)
-          return {
-            background = "#333333",
-            dark = "#000000",
-          }
+          return {}
         end,
         opt = {
           integrations = {
