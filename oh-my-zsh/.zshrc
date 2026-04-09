@@ -109,7 +109,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat=bat
-alias rm="trash-put"
 eval "$(jump shell)"
 
 export DOTNET_ROOT=$HOME/.dotnet

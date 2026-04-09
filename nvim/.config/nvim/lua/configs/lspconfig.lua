@@ -1,8 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local lspconfig = require "lspconfig"
-local nvlsp = require "nvchad.configs.lspconfig"
-local servers = { "html", "cssls", "docker_compose_language_service" }
+local servers = { "html", "cssls", "docker" }
 vim.lsp.enable(servers)
 
 for _, lsp in ipairs(servers) do
